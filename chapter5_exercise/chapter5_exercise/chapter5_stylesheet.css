@@ -1,0 +1,126 @@
+* {
+  padding: ;
+  margin: ;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 20px;
+  text-align: center;
+}
+
+.list {
+  text-align: center;
+  padding: 15px 0;
+  /* わからなかったところ */
+  margin: 0 auto;
+  /* わからなかったところ */
+  border-bottom: 1px solid #848282;
+  /* わからなかったところ */
+  border-top: 1px solid #848282;
+  /* わからなかったところ */
+}
+
+.list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  /* まちがえたところ */
+}
+
+.main {
+  width: 800px;
+  margin: 50px auto;
+  /* わからなかったところ */
+  /* 要らなかったもの　height: 600px; */
+  display: flex;
+  /* わからなかったところ */
+  /* 要らなかったところpadding: 50px; */
+  flex-wrap: wrap;
+  /* わからなかったところ */
+}
+
+.e6ffe9 {
+  width: 200px;
+  /* わからなかったところ */
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.cbffd3 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.aeffbd {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+._93ffab {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.f3ffd8 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+.edffde {
+  width: 200px;
+  height: 200px;
+  background-color: #edffde;
+}
+
+.e9ffa5 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.e4ff8d {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.d9e5ff {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.bad3ff {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+.a4c6ff {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+._8eb8ff {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  /* わからなかったところ */
+  line-height: 120px;
+  /* わからなかったところ */
+  background-color: gray;
+}
+
+.footer-text {
+  color: white;
+  /* 忘れていたところ */
+}

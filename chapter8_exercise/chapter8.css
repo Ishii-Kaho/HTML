@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list {
+  margin-bottom: 50px;
+}
+
+.item {
+  /* 不要display: flex; */
+  /* 不要width: 960px; */
+  padding: 20px;
+  list-style: none;
+}
+
+.item:nth-child(odd) {
+  background-color: #eee;
+}
+
+.box-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-box {
+  width: 30%;
+  height: 200px;
+  /* まちがえpadding: 50px 5% 40px 0; */
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: #ffd700;
+}
+
+.color-box:first-child,
+.color-box:nth-child(5),
+.color-box:last-child {
+  background-color: orange;
+}
+
+.color-box:nth-child(3n) {
+  margin-right: 0;
+}
+
+.color-box:nth-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+/* colorbox１段目のmarginが効いていない。なぜか */
